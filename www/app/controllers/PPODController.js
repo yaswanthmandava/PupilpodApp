@@ -467,12 +467,15 @@ app.controller('feesController',function($scope,PPODService,$http,$window,$docum
 	$scope.alerts = []; 
 	$scope.fnInit = function(){
 		$scope.$emit('modelOffEvent', true);
-	}
-	
-	$scope.getInvoicesForStudent = function (){
 		$scope.makePaymentshow=false;
 		$scope.loading = true;
 		PPODService.getFeeInvoicesForStudent($scope);
+	}
+	
+	$scope.getInvoicesForStudent = function (){
+		//$scope.makePaymentshow=false;
+		//$scope.loading = true;
+		//PPODService.getFeeInvoicesForStudent($scope);
 	}	
 	
 	$scope.makePayment = function(){
