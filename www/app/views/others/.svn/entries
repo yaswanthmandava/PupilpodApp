@@ -60,40 +60,6 @@ midhun
 
 1639
 
-publication_details.html
-file
-
-
-
-
-2015-07-16T12:58:50.255506Z
-c48913402a091d59840511db0ad5ce38
-2015-07-08T11:22:01.742436Z
-19317
-midhun
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1197
-
 view_test_details.html
 file
 
@@ -127,6 +93,40 @@ virat.joshi
 
 
 430
+
+publication_details.html
+file
+
+
+
+
+2015-07-16T12:58:50.255506Z
+c48913402a091d59840511db0ad5ce38
+2015-07-08T11:22:01.742436Z
+19317
+midhun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1197
 
 student_view.html
 file
@@ -196,40 +196,6 @@ virat.joshi
 
 6071
 
-fees.html
-file
-19569
-
-
-
-2015-07-24T12:51:14.115905Z
-3f07cd2d43075683142d93640b43dabe
-2015-07-24T12:48:51.926455Z
-19569
-yaswanth
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2138
-
 user_feedback.html
 file
 
@@ -263,6 +229,40 @@ midhun
 
 
 2134
+
+fees.html
+file
+19569
+
+
+
+2015-07-24T12:51:14.115905Z
+3f07cd2d43075683142d93640b43dabe
+2015-07-24T12:48:51.926455Z
+19569
+yaswanth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2138
 
 event_details.html
 file
@@ -300,14 +300,14 @@ hiremath.p
 
 confirmMakePayment.html
 file
-19570
+19579
 
 
 
-2015-07-24T07:38:10.368092Z
-3aca3ba22b904e909538f9aedf3437fa
-2015-07-24T12:49:04.109041Z
-19570
+2015-07-24T13:51:59.999706Z
+0de3acffeb0be1938ee8f254c03e4764
+2015-07-24T13:54:08.188696Z
+19579
 yaswanth
 
 
@@ -330,7 +330,7 @@ yaswanth
 
 
 
-3399
+3419
 
 paymentCallBack.html
 file
