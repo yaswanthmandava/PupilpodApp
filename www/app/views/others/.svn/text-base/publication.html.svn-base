@@ -1,0 +1,24 @@
+<ion-view view-title="Pupilpod" ng-controller="PublicationController" ng-init="fnInit()">
+    <ion-content>
+        <div>
+			<div class="item item-divider">
+				Publications
+			</div>
+			
+			<div class="card" ng-repeat="item in publications">
+				<div class="row row-center" ng-click="fnViewDetails(item)">
+					<div class="col col-25 text-left">{{item.published_date}}</div>
+					<div class="col col-67 text-left">{{item.name}}</div>
+					<div class="col col-10 text-right">
+						<button class="button button-small button-clear button-dark icon icon-right ion-chevron-right" style="width:100%;"></button>
+					</div>
+				</div>
+			</div>	
+		</div>
+        <div ng-show="loading">
+			<div style="text-align:center;">
+				<ion-spinner icon="ripple" class="spinner-balanced"></ion-spinner>
+			</div>
+		</div>
+    </ion-content>
+</ion-view>

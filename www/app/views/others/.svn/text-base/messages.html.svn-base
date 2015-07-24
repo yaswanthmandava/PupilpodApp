@@ -1,0 +1,35 @@
+<ion-view view-title="Pupilpod">
+    <ion-content>
+        <div>
+			<div class="item item-divider">
+				Messages
+			</div>
+			<div ng-show="loading">
+				<div style="text-align:center;">
+					<ion-spinner icon="ripple" class="spinner-balanced"></ion-spinner>
+				</div>
+			</div>
+			<div ng-if="!messageDisplay">
+				<div class="card">
+					<div class="row row-center">
+						<div class="text-center" style="padding:0px 5px;">You don't have any messages.</div>
+					</div>
+				</div>
+			</div>
+			<div class="card" ng-repeat="item in allMessages">
+				<div class="row row-center" ng-click="fnViewDetails(item)" ng-if="item.notify_type == 'publication'">
+					<div class="col col-80 text-left">{{item.notify_msg}}</div>
+					<div>
+						<div class="col col-20 text-right">
+							<button class="button button-small button-clear button-dark icon icon-right ion-chevron-right" style="width:100%;"></button>
+						</div>
+					</div>
+				</div>
+				<div class="row row-center" ng-if="item.notify_type != 'publication'">
+					<div class="col col-80 text-left">{{item.notify_msg}}</div>
+				</div>
+			</div>	
+		</div>
+        
+    </ion-content>
+</ion-view>

@@ -1,0 +1,16 @@
+<ion-view view-title="PupilPod">
+	<ion-content>
+		<div>
+			<div class="card" ng-if="ifNotLogin">
+				<div class="row row-center">
+					<div class="text-center" style="padding:0px 5px;">Please wait it might take some time.</div>
+				</div>
+			</div>
+			<div style="text-align: center;  margin-top: 80px !important;">
+				<ion-spinner icon="ripple" class="spinner-balanced"></ion-spinner>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
+
+
