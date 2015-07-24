@@ -472,12 +472,6 @@ app.controller('feesController',function($scope,PPODService,$http,$window,$docum
 		PPODService.getFeeInvoicesForStudent($scope);
 	}
 	
-	$scope.getInvoicesForStudent = function (){
-		//$scope.makePaymentshow=false;
-		//$scope.loading = true;
-		//PPODService.getFeeInvoicesForStudent($scope);
-	}	
-	
 	$scope.makePayment = function(){
 		$scope.loading = true;
 		var checkedInvoicesCount=0;
