@@ -9,17 +9,17 @@ svn:wc:ra_dav:version-url
 V 90
 /pupilpod/!svn/ver/19349/Trunk/xampp/htdocs/PupilpodApp/www/app/views/others/calender.html
 END
-view_test_details.html
-K 25
-svn:wc:ra_dav:version-url
-V 99
-/pupilpod/!svn/ver/19499/Trunk/xampp/htdocs/PupilpodApp/www/app/views/others/view_test_details.html
-END
 publication_details.html
 K 25
 svn:wc:ra_dav:version-url
 V 101
 /pupilpod/!svn/ver/19317/Trunk/xampp/htdocs/PupilpodApp/www/app/views/others/publication_details.html
+END
+view_test_details.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/pupilpod/!svn/ver/19499/Trunk/xampp/htdocs/PupilpodApp/www/app/views/others/view_test_details.html
 END
 student_view.html
 K 25
@@ -33,17 +33,17 @@ svn:wc:ra_dav:version-url
 V 93
 /pupilpod/!svn/ver/19499/Trunk/xampp/htdocs/PupilpodApp/www/app/views/others/mainLanding.html
 END
+fees.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/pupilpod/!svn/ver/19580/Trunk/xampp/htdocs/PupilpodApp/www/app/views/others/fees.html
+END
 user_feedback.html
 K 25
 svn:wc:ra_dav:version-url
 V 95
 /pupilpod/!svn/ver/19303/Trunk/xampp/htdocs/PupilpodApp/www/app/views/others/user_feedback.html
-END
-fees.html
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/pupilpod/!svn/ver/19569/Trunk/xampp/htdocs/PupilpodApp/www/app/views/others/fees.html
 END
 event_details.html
 K 25
