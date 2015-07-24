@@ -542,7 +542,7 @@ app.controller('confirmMakePayment',function($scope,PPODService,$http,$window,$d
 		var totalAmount=$scope.totalAmtPyng;
 		var fineAmount=$scope.totFine;
 		var params="?studentGuid="+studentGuid+"&invoices="+invoices+"&totalAmount="+totalAmount+"&payment_mode="+selectedPaymentMode+"&fine="+fineAmount;
-		ref = $window.open('http://'+sharedProperties.getInstName()+'/sites/all/tnetviews/mobile_app_payment.php'+params, '_blank', 'location=no');
+		ref = $window.open('http://'+sharedProperties.getInstName()+'/sites/all/tnetviews/mobile_app_payment_before.php'+params, '_blank', 'location=no');
         ref.addEventListener('loadstart', function(event) {  });
         ref.addEventListener('loadstop', function(event) {
 			if (event.url.match("/close")) {
