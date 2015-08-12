@@ -1,15 +1,15 @@
 10
 
 dir
-19559
+19797
 http://svn.thoughtnet.in/pupilpod/Trunk/xampp/htdocs/PupilpodApp/www/app/views/others
 http://svn.thoughtnet.in/pupilpod
 
 
 
-2015-07-21T09:38:37.491576Z
-19499
-virat.joshi
+2015-07-24T14:01:56.399732Z
+19580
+yaswanth
 
 
 
@@ -60,40 +60,6 @@ midhun
 
 1639
 
-publication_details.html
-file
-
-
-
-
-2015-07-16T12:58:50.255506Z
-c48913402a091d59840511db0ad5ce38
-2015-07-08T11:22:01.742436Z
-19317
-midhun
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1197
-
 view_test_details.html
 file
 
@@ -127,6 +93,40 @@ virat.joshi
 
 
 430
+
+publication_details.html
+file
+
+
+
+
+2015-07-16T12:58:50.255506Z
+c48913402a091d59840511db0ad5ce38
+2015-07-08T11:22:01.742436Z
+19317
+midhun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1197
 
 student_view.html
 file
@@ -196,40 +196,6 @@ virat.joshi
 
 6071
 
-fees.html
-file
-19580
-
-
-
-2015-07-24T13:57:20.522039Z
-4f6d04e30d7057156a10a3d2fbc448a0
-2015-07-24T14:01:56.399732Z
-19580
-yaswanth
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2181
-
 user_feedback.html
 file
 
@@ -263,6 +229,40 @@ midhun
 
 
 2134
+
+fees.html
+file
+
+
+
+
+2015-07-24T13:57:20.522039Z
+4f6d04e30d7057156a10a3d2fbc448a0
+2015-07-24T14:01:56.399732Z
+19580
+yaswanth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2181
 
 event_details.html
 file
@@ -300,7 +300,7 @@ hiremath.p
 
 confirmMakePayment.html
 file
-19579
+
 
 
 
